@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Mis Proyectos</h2>
+    <ul>
+        {% for proyecto in proyectos %}
+            <li>
+                <h3>{{ proyecto.titulo }}</h3>
+                <p>{{ proyecto.descripcion }}</p>
+                <img src="{{ proyecto.imagen }}" alt="{{ proyecto.titulo }}">
+                <a href="{{ proyecto.url }}">Ver proyecto</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock content %}

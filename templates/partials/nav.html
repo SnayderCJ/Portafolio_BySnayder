@@ -1,0 +1,26 @@
+{% load static %}
+
+<nav class="nav">
+    <ul>
+        <li>
+            <a href="{% url 'home' %}">
+                <i class="fas fa-home"></i>
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'portafolio:sobre_mi' %}">
+                <i class="fas fa-list"></i> Sobre mi
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'portafolio:proyectos' %}">
+                <i class="fas fa-plus"></i> Proyectos
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'portafolio:contacto' %}">
+                <i class="fas fa-clock"></i> Contacto
+            </a>
+        </li>
+    </ul>
+</nav>

@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="about-me">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="{% static 'img/tu_foto.jpg' %}" alt="Tu foto" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-8">
+                <h2>Sobre Mí</h2>
+                <p>
+                    ¡Hola! Soy [Tu Nombre], un apasionado desarrollador web con [Número] años de experiencia. 
+                    Me encanta crear soluciones digitales innovadoras y funcionales.
+                </p>
+                <p>
+                    Mi enfoque principal es el desarrollo frontend, pero también tengo experiencia en backend y bases de datos. 
+                    Disfruto trabajando en proyectos desafiantes y colaborando con equipos multidisciplinarios.
+                </p>
+                <p>
+                    Actualmente estoy buscando oportunidades para aplicar mis habilidades y conocimientos en proyectos emocionantes. 
+                    Si estás interesado en trabajar conmigo, no dudes en contactarme.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills">
+    <div class="container">
+        <h2>Habilidades</h2>
+        <ul class="list-unstyled">
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Vue.js, Angular</li>
+            <li>Python, Django, Node.js</li>
+            <li>Git, GitHub</li>
+            <li>Diseño UI/UX</li>
+            </ul>
+    </div>
+</section>
+
+<section class="experience">
+    <div class="container">
+        <h2>Experiencia</h2>
+        </div>
+</section>
+
+<section class="education">
+    <div class="container">
+        <h2>Educación</h2>
+        </div>
+</section>
+
+{% endblock content %}
