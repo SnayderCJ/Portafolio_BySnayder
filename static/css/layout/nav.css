@@ -1,0 +1,37 @@
+.nav {
+    background-color: #333;
+    /* Color de fondo de la barra de navegación */
+    color: #fff;
+    /* Color del texto de la barra de navegación */
+    padding: 1em 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    /* Mostrar elementos de la lista como elementos en línea */
+}
+
+.nav a {
+    color: #fff;
+    /* Color de los enlaces */
+    text-decoration: none;
+    /* Eliminar subrayado de los enlaces */
+    font-weight: bold;
+    /* Poner el texto de los enlaces en negrita */
+    padding: 0.8em 1.5em;
+    /* Espacio alrededor del texto de los enlaces */
+    border-radius: 5%;
+}
+
+.nav a:hover {
+    background-color: #8800ff;
+    color: #fff;
+}

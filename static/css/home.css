@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,300;0,400;0,600;0,800;1,100&display=swap");
+
+*{
+    box-sizing: border-box;
+    font-family: "Righteous";
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Estilos generales para home.html */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Sección Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    padding: 2rem;
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Sombra sutil */
+}
+
+.hero-content {
+    flex: 1;
+    margin-right: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Sección Sobre Nosotros */
+.about-us {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 2rem;
+}
+
+.about-us h2 {
+    margin-bottom: 1rem;
+}
+
+.about-us p {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-us li{
+    list-style: none;
+    margin-bottom: 0.5rem;
+
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}   
+
+/* Detalles del Ticket */
+.ticket-detalles {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-top: 20px; /* Espacio superior */
+}
+
+.ticket-detalles h2 {
+    color: var(--primary-color); 
+    border-bottom: 2px solid var(--primary-color); 
+    padding-bottom: 10px;  
+}
+
+.success {
+    background-color: #d4edda;  /* Fondo verde claro */
+    color: #155724;            /* Texto verde oscuro */
+    border: 1px solid #c3e6cb; /* Borde verde */
+    padding: 10px;            /* Espacio interno */
+    margin-bottom: 10px;     /* Espacio inferior */
+    border-radius: 5px;       /* Bordes redondeados (opcional) */
+}

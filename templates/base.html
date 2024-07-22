@@ -1,6 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   {% load static %}
   <meta charset="UTF-8">
@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="{% static 'css/home.css' %}">
   <link rel="stylesheet" href="{% static 'css/layout/nav.css' %}">
   <link rel="stylesheet" href="{% static 'css/components/button.css' %}">
-  <link rel="stylesheet" href="{% static 'css/components/table.css' %}">
+  {% comment %} <link rel="stylesheet" href="{% static 'css/components/table.css' %}"> {% endcomment %}
   <link rel="stylesheet" href="{% static 'css/components/footer.css' %}">
   <link rel="stylesheet" href="{% static 'css/components/form.css' %}">
-  <link rel="icon" href="{% static 'images/boleto2.png' %}" type="image/png">
+  {% comment %} <link rel="icon" href="{% static 'images/boleto2.png' %}" type="image/png"> {% endcomment %}
   <title>{% block title %} Home {% endblock title %}</title>
   {{ messages.js }}
 </head>
