@@ -3,11 +3,11 @@
 
 {% block content %}
 
-<section class="contact">
-    <div class="container">
+<section class="container">
+    <div class="form-container"> 
         <h2>Contáctame</h2>
         <form method="POST">
-            {% csrf_token %} 
+            {% csrf_token %}
             <div class="form-group">
                 <label for="nombre">Nombre:</label>
                 <input type="text" class="form-control" id="nombre" name="nombre" required>
@@ -20,7 +20,9 @@
                 <label for="mensaje">Mensaje:</label>
                 <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <div class="btn-form-buttons">
+                <button type="submit" class="btn-form">Enviar</button>
+            </div> 
         </form>
     </div>
 </section>

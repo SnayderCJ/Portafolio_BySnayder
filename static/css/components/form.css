@@ -1,0 +1,139 @@
+/* Estilos generales para el formulario */
+.form-container {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background: #202020;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos para las etiquetas (modificado) */
+label {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 0.5rem;
+    margin: 5px;
+}
+
+.form-control{
+    background-color: #202020;
+    color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 100%;
+    box-shadow: #fff 1px 2px 1px 1px;
+}
+
+
+/* Estilos para errores de validación */
+.errorlist {
+    color: var(--error-color);
+    /* Color de error (rojo o similar) */
+    font-size: 0.9rem;
+    list-style: none;
+    /* Elimina los puntos de la lista */
+    margin: 0.5rem 0;
+    padding: 0;
+}
+
+/* Estilos para cada mensaje de error */
+.errorlist li {
+    margin-bottom: 0.3rem;
+}
+
+/* Estilos para el campo con error */
+.form-group.has-error input,
+.form-group.has-error select,
+.form-group.has-error textarea {
+    border-color: var(--error-color);
+    /* Resalta el borde del campo en rojo */
+}
+
+
+/* Estilos para el botón de envío */
+
+.btn-form{
+    display: flex;
+    padding: 0.75rem 5rem;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #333;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: white;
+    box-shadow: #fff 1px 2px 1px 1px;
+}
+
+.btn-form a{
+    color: white    ;
+}
+
+.btn-form:hover{
+    background: #8800ff;
+    color: white;
+    box-shadow: #8800ff 1px 2px 1px 1px;
+}
+
+.btn-form-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-form-1{
+    display: flex;
+    padding: 0.75rem 5rem;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #333;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: white;
+    box-shadow: #fff 1px 2px 1px 1px;
+}
+
+
+.btn-form-1:hover{
+    background: #8800ff;
+    color: white;
+    box-shadow: #8800ff 1px 2px 1px 1px;
+}
+
+/* Estilos para el menú desplegable de prioridad */
+select.form-control {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Estilos para el campo de búsqueda */
+input[type="text"] {
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+
